@@ -1,0 +1,18 @@
+### login
+GET /login/user1
+Content-Type: application/json
+Host: localhost:8081
+
+###
+
+### 회원가입
+POST /member
+Host: localhost:8081
+Content-Type: application/json
+
+{
+  "username": "user2",
+  "password": "1234",
+  "email": "email@email.com",
+  "authority": "ROLE_MEMBER"
+}

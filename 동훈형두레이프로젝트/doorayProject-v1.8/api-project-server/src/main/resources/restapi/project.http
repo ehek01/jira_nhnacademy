@@ -1,0 +1,30 @@
+### create post
+POST /project/1
+Content-Type: application/json
+Host: localhost:8082
+
+{
+  "projectName": "test project06"
+}
+
+###
+
+### READ project
+GET /project
+Host: localhost:8082
+Content-Type: application/json
+
+### UPDATE
+
+PUT /project/1
+Host: localhost:8082
+Content-Type: application/json
+
+{
+  "projectName": "hi dooray",
+  "projectStatus": "ENABLE"
+}
+
+### DELETE
+DELETE /project/3
+Host: localhost:8082

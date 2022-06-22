@@ -1,5 +1,4 @@
 package day02;
-
 import java.util.Random;
 
 public class Lotto {

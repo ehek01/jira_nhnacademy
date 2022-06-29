@@ -22,6 +22,7 @@ public class CardGame {
             }
         }
 
+
         viewCard(player1, 1);
         viewCard(player2, 2);
 

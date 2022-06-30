@@ -11,6 +11,7 @@ public class HashMapExample {
             new Employee(3, "Comtin"),
             new Employee(4, "Yoda"));
     static Map<Integer, Employee> workerMap = new HashMap<>();
+
     static {
         for (Employee worker : workers) {   // n
             workerMap.put(worker.getEmpNo(), worker);
